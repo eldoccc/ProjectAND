@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/action_favorite"
+        android:icon="@drawable/ic_favorite_border_white_24dp"
+        android:title="@string/hearticon"
+        app:showAsAction="always"
+        android:visible="false"
+        />
+
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/ic_search_white_24dp"
+        app:showAsAction="always"
+        android:title="@string/search"
+        android:visible="false"
+        app:actionViewClass="android.widget.SearchView"/>
+
+    <item
+        android:id="@+id/action_help"
+        android:title="@string/help" />
+    <item
+        android:id="@+id/action_settings"
+        android:title="@string/settings" />
+
+
+</menu>
